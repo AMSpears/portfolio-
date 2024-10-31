@@ -2,6 +2,7 @@ import * as React from "react"
 import Header from '../components/layout/Header';
 import HomeIntroBanner from '../components/specific/HomeIntroBanner';
 import bioImage from '../images/bio-image-placeholder.jpg';
+import HomeAbout from '../components/specific/HomeAbout';
 
 const pageStyles = {
   color: "#1A202C",
@@ -14,6 +15,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <Header />
       <HomeIntroBanner bioImage={bioImage} />
+      <HomeAbout />
     </main>
   )
 }

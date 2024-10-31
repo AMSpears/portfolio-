@@ -1,5 +1,7 @@
 import * as React from "react"
 import Header from '../components/layout/Header';
+import HomeIntroBanner from '../components/specific/HomeIntroBanner';
+import bioImage from '../images/bio-image-placeholder.jpg';
 
 const pageStyles = {
   color: "#1A202C",
@@ -11,6 +13,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <Header />
+      <HomeIntroBanner bioImage={bioImage} />
     </main>
   )
 }

@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* HOMEPAGE INTRO BANNER ANIMATION */
+@keyframes slideInLeft {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+  
+@keyframes slideInRight {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+  
+@keyframes fadeInCenter {
+  0% { transform: translateY(50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1s ease forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 1s ease forwards;
+}
+  
+.animate-fade-in-center {
+  animation: fadeInCenter 1s ease 0.5s forwards;
+}
+  

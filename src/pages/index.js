@@ -2,7 +2,8 @@ import * as React from "react"
 import Header from '../components/layout/Header';
 
 const pageStyles = {
-  color: "#232129",
+  color: "#1A202C",
+  backgroundColor: "#1A202C",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 

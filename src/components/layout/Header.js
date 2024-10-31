@@ -9,7 +9,7 @@ const Header = ({ logo }) => {
   };
 
   return (
-    <header className="flex justify-between items-center p-[20px]  md:px-[80px] md:py-[24px] text-black">
+    <header className="flex justify-between items-center p-[20px] md:px-[80px] md:py-[24px] text-white">
       <div className="flex items-center">
         { logo ? <img src={logo} alt="Logo" className="h-8" /> : <Link to="/">Angie Spears</Link> }
        

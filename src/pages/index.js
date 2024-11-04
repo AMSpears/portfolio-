@@ -6,7 +6,7 @@ import HomeAbout from '../components/specific/HomeAbout';
 
 const pageStyles = {
   color: "#1A202C",
-  backgroundColor: "#1A202C",
+  backgroundColor: "#000000",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 

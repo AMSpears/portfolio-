@@ -1,18 +1,13 @@
 import * as React from "react"
 import Header from '../components/layout/Header';
 import HomeIntroBanner from '../components/specific/HomeIntroBanner';
-import bioImage from '../images/bio-image-placeholder.jpg';
+import bioImage from '../images/bio-image-placeholder.png';
 import HomeAbout from '../components/specific/HomeAbout';
 
-const pageStyles = {
-  color: "#1A202C",
-  backgroundColor: "#000000",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main className="bg-primary">
       <Header />
       <HomeIntroBanner bioImage={bioImage} />
       <HomeAbout />

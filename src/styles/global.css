@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #000000;
+}
+
 /* HOMEPAGE INTRO BANNER ANIMATION */
 @keyframes slideInLeft {
   0% { transform: translateX(-100%); opacity: 0; }

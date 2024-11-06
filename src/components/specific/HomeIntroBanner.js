@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const HomeIntroBanner = ({ bioImage }) => {  
 
-  /**
-   * TODO: 
-   * Adjust the text size and position for different screen sizes
-   * Update Image with correct image
-   * Adjust image size and position for different screen sizes
-   * Adjust text font and size for different screen sizes
-   */
   return (
     <div className="bg-banner-gradient relative w-full py-[80px] md:py-[96px] flex items-center justify-center flex-col">
       <div 

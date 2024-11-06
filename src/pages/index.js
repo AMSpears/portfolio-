@@ -3,7 +3,7 @@ import Header from '../components/layout/Header';
 import HomeIntroBanner from '../components/specific/HomeIntroBanner';
 import bioImage from '../images/bio-image-placeholder.png';
 import HomeAbout from '../components/specific/HomeAbout';
-
+import HomeProjects from "../components/specific/HomeProjects";
 
 const IndexPage = () => {
   return (
@@ -11,6 +11,7 @@ const IndexPage = () => {
       <Header />
       <HomeIntroBanner bioImage={bioImage} />
       <HomeAbout />
+      <HomeProjects />
     </main>
   )
 }

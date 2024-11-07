@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ title, description, videoUrl, outerBackgroundColor, innerBackgroundColor, technologies }) => {
   return (
-    <div className={`w-screen h-lvh ${outerBackgroundColor} shadow-md rounded-md p-[32px] mx-[20px] flex md:gap-32`}>
+    <div className={`h-lvh ${outerBackgroundColor} shadow-md rounded-md p-[32px] mx-[20px] flex md:gap-32`}>
       <div className="flex flex-col w-1/4">
         <h3 className="md:text-5xl mb-[24px] font-semibold text-secondary uppercase">{title}</h3>
         <p className="text-lg text-secondary text-lg font-light">{description}</p>

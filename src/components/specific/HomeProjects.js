@@ -1,10 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ProjectCard from '../common/ProjectCard';
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 
 const HomeProjects = () => {  
@@ -25,7 +22,7 @@ const projects = [
     outerBackgroundColor: "bg-blue-400",
     innerBackgroundColor: "bg-gray-300",
     technologies: ["React", "Shopify", "GraphQL", "SCSS"]
-  }
+  },
 ]
 
   return (

@@ -27,24 +27,39 @@ const projects = [
 
   return (
     <div className="relative w-full py-[48px] flex flex-col">
-     <h2 className="ml-[20px] mb-[48px] md:ml-[64px] text-primary text-lg md:text-5xl">Selected Projects</h2>
-     <Swiper 
-      slidesPerView={1.2}
-      spaceBetween={32}
-      className="mySwiper">        
-        {projects.map((project, index) => (
-          <SwiperSlide key={index}>
-            <ProjectCard
-              title={project.title}
-              description={project.description}
-              videoUrl={project.videoUrl}
-              outerBackgroundColor={project.outerBackgroundColor}
-              innerBackgroundColor={project.innerBackgroundColor}
-              technologies={project.technologies}
-            />
-          </SwiperSlide>
-        ))}
-     </Swiper>
+     <h2 className="ml-[20px] mb-[32px] md:mb-[48px] md:ml-[64px] text-primary text-[28px] md:text-5xl">Selected Projects</h2>
+     <div className="hidden md:block">
+      <Swiper 
+        slidesPerView={1.2}
+        spaceBetween={32}
+        className="mySwiper">        
+          {projects.map((project, index) => (
+            <SwiperSlide key={index}>
+              <ProjectCard
+                title={project.title}
+                description={project.description}
+                videoUrl={project.videoUrl}
+                outerBackgroundColor={project.outerBackgroundColor}
+                innerBackgroundColor={project.innerBackgroundColor}
+                technologies={project.technologies}
+              />
+            </SwiperSlide>
+          ))}
+      </Swiper>
+     </div>
+     <div className='block md:hidden'>
+      {projects.map((project, index) => (
+        <ProjectCard
+          index={index}
+          title={project.title}
+          description={project.description}
+          videoUrl={project.videoUrl}
+          outerBackgroundColor={project.outerBackgroundColor}
+          innerBackgroundColor={project.innerBackgroundColor}
+          technologies={project.technologies}
+        />
+      ))}
+     </div>
     </div>
     );
   

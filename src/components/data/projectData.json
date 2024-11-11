@@ -1,0 +1,52 @@
+[
+  {
+    "backgroundImage": "bg-ja-background",
+    "backgroundColor": "bg-ja-bg-color",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna nisi, consectetur sagittis lobortis ut, tempus quis orci. Vivamus placerat ligula eget est semper tincidunt. Pellentesque eget ullamcorper leo, quis dictum justo. Integer tempus lobortis nibh id euismod.",
+    "title": "Jonathan Adler",
+    "titleColor": "text-ja-primary",
+    "textColor": "text-ja-secondary",
+    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
+  },
+  {
+    "backgroundImage": "bg-cuup-background",
+    "backgroundColor": "bg-cuup-bg-color",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna nisi, consectetur sagittis lobortis ut, tempus quis orci. Vivamus placerat ligula eget est semper tincidunt. Pellentesque eget ullamcorper leo, quis dictum justo. Integer tempus lobortis nibh id euismod.",
+    "title": "CUUP",
+    "titleColor": "text-cuup-primary",
+    "textColor": "text-cuup-secondary",
+    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
+  },
+  {
+    "backgroundImage": "bg-this-place-background",
+    "backgroundColor": "bg-this-place-bg-color",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna nisi, consectetur sagittis lobortis ut, tempus quis orci. Vivamus placerat ligula eget est semper tincidunt. Pellentesque eget ullamcorper leo, quis dictum justo. Integer tempus lobortis nibh id euismod.",
+    "title": "This Place",
+    "titleColor": "text-this-place-primary",
+    "textColor": "text-this-place-secondary",
+    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
+  },
+  {
+    "backgroundImage": "bg-faherty-background",
+    "backgroundColor": "bg-faherty-bg-color",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna nisi, consectetur sagittis lobortis ut, tempus quis orci. Vivamus placerat ligula eget est semper tincidunt. Pellentesque eget ullamcorper leo, quis dictum justo. Integer tempus lobortis nibh id euismod.",
+    "title": "Faherty",
+    "titleColor": "text-faherty-primary",
+    "textColor": "text-faherty-secondary",
+    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
+  },
+  {
+    "backgroundImage": "bg-michael-stars-background",
+    "backgroundColor": "bg-michael-stars-bg-color",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent magna nisi, consectetur sagittis lobortis ut, tempus quis orci. Vivamus placerat ligula eget est semper tincidunt. Pellentesque eget ullamcorper leo, quis dictum justo. Integer tempus lobortis nibh id euismod.",
+    "title": "Michael Stars",
+    "titleColor": "text-michael-stars-primary",
+    "textColor": "text-michael-stars-secondary",
+    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
+  }
+]

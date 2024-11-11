@@ -16,7 +16,7 @@
     "title": "CUUP",
     "titleColor": "text-cuup-primary",
     "textColor": "text-cuup-secondary",
-    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "technologies": ["React.js", "Shopify", "GraphQL", "SCSS"],
     "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
   },
   {
@@ -46,7 +46,7 @@
     "title": "Michael Stars",
     "titleColor": "text-michael-stars-primary",
     "textColor": "text-michael-stars-secondary",
-    "technologies": ["Vue.js", "Shopify", "GraphQL", "SCSS"],
+    "technologies": ["React.js", "Shopify", "GraphQL", "SCSS"],
     "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4" 
   }
 ]

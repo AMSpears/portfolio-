@@ -3,7 +3,7 @@ import React from 'react';
 const HomeIntroBanner = ({ bioImage }) => {  
 
   return (
-    <div className="bg-banner-gradient relative w-full py-[80px] md:py-[96px] flex items-center justify-center flex-col">
+    <div className="relative w-full py-[80px] md:py-[96px] flex items-center justify-center flex-col">
       <div 
         className="relative w-[190px] h-[238px] md:w-[452px] md:h-[632px] bg-cover bg-center"
         style={{ backgroundImage: `url(${bioImage})` }}

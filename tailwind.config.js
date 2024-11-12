@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         'primary': '#FCFC8B',
         'secondary': '#FFFFFF',
+        'light-blue':'#4990E5',
         'ja-primary': '#ACE4AA',
         'ja-secondary': '#FFFFFF',
         'cuup-primary': '#EDF2F4',

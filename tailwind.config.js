@@ -29,7 +29,11 @@ module.exports = {
         'cuup-bg-color': '#DB3760',
         'this-place-bg-color': '#540D6E',
         'faherty-bg-color': '#157145',
-        'michael-stars-bg-color': '#84C318'
+        'michael-stars-bg-color': '#84C318',
+        'light-purple': '#ECBFFF',
+        'light-green': '#3FB788',
+        'light-blue': '#4990E5',
+        'light-yellow': '#E5FF36',
       },
       backgroundImage: {
         'banner-gradient':'linear-gradient(331deg, #000 60.06%, #819400 136.75%)',

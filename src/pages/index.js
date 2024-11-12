@@ -5,6 +5,7 @@ import bioImage from '../images/bio-image-placeholder.png';
 import HomeIntro from '../components/specific/HomeIntro';
 import HomeProjects from "../components/specific/HomeProjects";
 import HomeAbout from '../components/specific/HomeAbout';
+import Footer from '../components/layout/Footer';
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <HomeIntro />
       <HomeProjects />
       <HomeAbout />
+      <Footer />
     </main>
   )
 }

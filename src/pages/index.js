@@ -2,16 +2,18 @@ import * as React from "react"
 import Header from '../components/layout/Header';
 import HomeIntroBanner from '../components/specific/HomeIntroBanner';
 import bioImage from '../images/bio-image-placeholder.png';
-import HomeAbout from '../components/specific/HomeAbout';
+import HomeIntro from '../components/specific/HomeIntro';
 import HomeProjects from "../components/specific/HomeProjects";
+import HomeAbout from '../components/specific/HomeAbout';
 
 const IndexPage = () => {
   return (
-    <main className="bg-primary">
+    <main className="bg-banner-gradient bg-primary">
       <Header />
       <HomeIntroBanner bioImage={bioImage} />
-      <HomeAbout />
+      <HomeIntro />
       <HomeProjects />
+      <HomeAbout />
     </main>
   )
 }

@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
 
   return (
-    <footer className="footer text-white py-[48px] px-[20px] md:px-[96px]">
+    <footer className="footer bg-footer-gradient text-white py-[48px] px-[20px] md:px-[96px]">
       <div className="flex mb-[48px] md:mb-[100px] flex-col md:flex-row justify-between">
         <div className="md:w-1/2">
           <h2 className="text-primary font-bold text-[44px] md:text-[100px] mb-[24px]">Get in Touch</h2>

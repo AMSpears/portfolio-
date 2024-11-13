@@ -37,6 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         'banner-gradient':'linear-gradient(331deg, #000 60.06%, #819400 136.75%)',
+        'footer-gradient':'linear-gradient(155deg, rgba(0, 0, 0, 0.20) 23.13%, rgba(229, 255, 54, 0.20) 108.74%)',
         'ja-background': 'url("../images/ja-background.jpg")',
         'cuup-background': 'url("../images/cuup-background.jpg")',
         'this-place-background': 'url("../images/this-place-background.jpg")',

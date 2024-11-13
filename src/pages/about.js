@@ -3,6 +3,7 @@ import Header from '../components/layout/Header';
 import AboutSection from "../components/specific/AboutSection";
 import bioImage from '../images/bio-image-placeholder.png';
 import Services from "../components/specific/Services";
+import serviceIcon from '../images/service-icon.svg'
 import Footer from '../components/layout/Footer';
 
 const AboutPage = () => {
@@ -10,7 +11,7 @@ const AboutPage = () => {
     <main className="bg-banner-gradient bg-primary">
       <Header />
       <AboutSection bioImage={bioImage} />
-      <Services/>
+      <Services serviceIcon={serviceIcon}/>
       <Footer />
     </main>
   )

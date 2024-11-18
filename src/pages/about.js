@@ -3,7 +3,8 @@ import Header from '../components/layout/Header';
 import AboutSection from "../components/specific/AboutSection";
 import bioImage from '../images/bio-image-placeholder.png';
 import Services from "../components/specific/Services";
-import serviceIcon from '../images/service-icon.svg'
+import serviceIcon from '../images/service-icon.svg';
+import ExperienceSection from "../components/specific/ExperienceSection";
 import Footer from '../components/layout/Footer';
 
 const AboutPage = () => {
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <Header />
       <AboutSection bioImage={bioImage} />
       <Services serviceIcon={serviceIcon}/>
+      <ExperienceSection />
       <Footer />
     </main>
   )

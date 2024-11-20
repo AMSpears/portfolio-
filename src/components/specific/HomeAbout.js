@@ -5,7 +5,7 @@ const HomeAbout = () => {
 
   return (
     <div className="relative w-full px-[20px] py-[76px] md:px-[64px] md:py-[196px]">
-      <div className="bg-light-blue py-[32px] px-[20px] md:py-[48px] md:px-[64px] rounded-xl">
+      <div className="bg-about-background py-[32px] px-[20px] md:py-[48px] md:px-[64px] rounded-xl">
         <h2 className="text-black text-5xl md:text-8xl font-bold mb-[24px] md:mb-[48px] text-center md:text-left">Learn more about Angie</h2>
         <div className="flex flex-col md:flex-row justify-between">
           <img src={bioImage} alt="Angie" className="mb-[24px] md:mb-0 md:order-1 rounded-lg w-full h-[400px] cover md:w-[262px] md:h-[327px]"/>

@@ -25,6 +25,7 @@ module.exports = {
       backgroundColor: {
         'primary': '#000000',
         'secondary': '#8A5A9A',
+        'yellow': '#FCFC8B',
         'ja-bg-color': '#8A5A9A',
         'cuup-bg-color': '#DB3760',
         'this-place-bg-color': '#540D6E',

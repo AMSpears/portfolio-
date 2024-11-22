@@ -11,7 +11,7 @@ const HomeProjects = () => {
   });
 
   // Map vertical scroll to horizontal translation
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${(projectData.length - 1) * 85}vw`]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${(projectData.length - 1) * 95}vw`]);
 
   return (
     <div className="relative w-full py-[32px] md:px-[64px] md:py-[48px] flex flex-col">
@@ -22,7 +22,7 @@ const HomeProjects = () => {
           {/* Horizontal Animation */}
           <motion.div
             style={{ x }}
-            className="flex space-x-[10px]"
+            className="flex space-x-[64px]"
           >
             {projectData.map((card, index) => (
               <div

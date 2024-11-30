@@ -6,8 +6,9 @@ import Services from "../components/specific/Services";
 import serviceIcon from '../images/service-icon.svg';
 import ExperienceSection from "../components/specific/ExperienceSection";
 import Footer from '../components/layout/Footer';
-
+import useReveal from "../hooks/useReveal";
 const AboutPage = () => {
+  useReveal();
   return (
     <main className="bg-banner-gradient bg-primary">
       <Header />

@@ -14,7 +14,7 @@ const HomeProjects = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", `-${(projectData.length - 1) * 95}vw`]);
 
   return (
-    <div className="relative w-full py-[32px] md:px-[64px] md:py-[48px] flex flex-col">
+    <div className="relative w-full py-[32px] md:px-[64px] md:py-[48px] flex flex-col reveal">
       <h2 className="ml-[20px] mb-[32px] md:mb-[48px] md:ml-[64px] text-primary text-[28px] md:text-5xl">Selected Projects</h2>
       <div ref={targetRef} className="relative h-[500vh] hidden md:block">
         {/* Sticky Scroll Container */}

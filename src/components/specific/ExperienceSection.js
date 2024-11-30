@@ -21,7 +21,7 @@ const ExperienceSection = () => {
   ]
 
   return (
-    <div className="w-full flex flex-col md:flex-row py-[164px] px-[20px] md:py-[152px] md:px-[48px]">
+    <div className="w-full flex flex-col md:flex-row py-[164px] px-[20px] md:py-[152px] md:px-[48px] reveal">
       <h2 className="text-primary text-[48px] md:w-[40%]">Experience</h2>
       <div className='md:w-[60%]'>
         {experienceData.map((experience, index) => (

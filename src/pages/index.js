@@ -4,9 +4,12 @@ import HomeIntroBanner from '../components/specific/HomeIntroBanner';
 import bioImage from '../images/bio-image-placeholder.png';
 import HomeIntro from '../components/specific/HomeIntro';
 import HomeProjects from "../components/specific/HomeProjects";
-import HomeAbout from '../components/specific/HomeAbout';
 import Footer from '../components/layout/Footer';
 import useReveal from '../hooks/useReveal';
+import Services from "../components/specific/Services";
+import serviceIcon from '../images/service-icon.svg';
+import introDivider from '../images/intro-divider.svg';
+import ExperienceSection from "../components/specific/ExperienceSection";
 
 const IndexPage = () => {
   useReveal();
@@ -14,9 +17,10 @@ const IndexPage = () => {
     <main className="bg-banner-gradient bg-primary">
       <Header />
       <HomeIntroBanner bioImage={bioImage} />
-      <HomeIntro />
+      <HomeIntro introDivider={introDivider} />
+      <Services serviceIcon={serviceIcon}/>
       <HomeProjects />
-      <HomeAbout />
+      <ExperienceSection />
       <Footer />
     </main>
   )

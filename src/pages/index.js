@@ -9,6 +9,9 @@ import useReveal from '../hooks/useReveal';
 import Services from "../components/specific/Services";
 import serviceIcon from '../images/service-icon.svg';
 import introDivider from '../images/intro-divider.svg';
+import scrollIcon from '../images/scroll.svg';
+import scrollDividerLine from '../images/scroll-divider-line.svg';
+import arrow from '../images/arrow.svg';
 import ExperienceSection from "../components/specific/ExperienceSection";
 
 const IndexPage = () => {
@@ -19,7 +22,7 @@ const IndexPage = () => {
       <HomeIntroBanner bioImage={bioImage} />
       <HomeIntro introDivider={introDivider} />
       <Services serviceIcon={serviceIcon}/>
-      <HomeProjects />
+      <HomeProjects scrollIcon={scrollIcon} scrollDividerLine={scrollDividerLine} arrow={arrow} />
       <ExperienceSection />
       <Footer />
     </main>

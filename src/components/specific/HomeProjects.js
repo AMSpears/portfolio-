@@ -18,9 +18,9 @@ const HomeProjects = ({scrollIcon, scrollDividerLine, arrow}) => {
       <h2 className="ml-[20px] mb-[32px] md:mb-[48px] md:ml-[64px] text-primary text-[28px] md:text-5xl">Selected Projects</h2>
       <div ref={targetRef} className="relative h-[500vh] hidden md:block">
         {/* Sticky Scroll Container */}
-        <div className="sticky top-0 flex h-screen items-center overflow-hidden">
+        <div className="sticky top-10 flex h-screen items-center overflow-hidden">
           {/* Horizontal Animation */}
-          <div className="absolute z-50 top-0 hidden md:flex md:flex-col md:items-center md:space-y-[20px]">
+          <div className="absolute z-50 top-10 hidden md:flex md:flex-col md:items-center md:space-y-[20px]">
             <img src={scrollIcon} alt="Scroll icon" className="md:mb-[20px]"/>
             <img src={scrollDividerLine} alt="Scroll icon" className=""/>
             <img src={arrow} alt="Scroll icon" className=""/>

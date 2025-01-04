@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ backgroundImage, backgroundColor, description, title, titleColor, textColor, technologies, videoUrl }) => {
   return (
-    <div className={`md:h-lvh ${backgroundColor} shadow-md md:w-[85vw] md:max-w-[1500px] rounded-md py-[24px] px-[8px] md:p-[32px] mx-[20px] flex flex-col mb-[32px] md:mb-0 md:flex-row md:gap-32`}>
+    <div className={`md:h-[90vh] ${backgroundColor} shadow-md md:w-[85vw] md:max-w-[1500px] rounded-md py-[24px] px-[8px] md:p-[32px] mx-[20px] flex flex-col mb-[32px] md:mb-0 md:flex-row md:gap-32`}>
       <h3 className={`text-[32px] mb-[24px] ${titleColor} font-semibold uppercase md:hidden`}>{title}</h3>
       <div className="flex flex-col md:w-1/4 order-last md:order-first">
         <h3 className={`md:text-5xl mb-[24px] ${titleColor} font-semibold uppercase hidden md:block`}>{title}</h3>

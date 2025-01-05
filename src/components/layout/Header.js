@@ -36,7 +36,7 @@ const Header = ({ logo }) => {
         { logo ? <img src={logo} alt="Logo" className="h-8" /> : <Link to="/" className="text-primary font-bold text-[16px]">Angie Spears</Link> }
       </div>
       <nav className="hidden md:flex space-x-4">
-        <Link to="/about" activeClassName="underline underline-offset-2" className="hover:underline underline-offset-2 cursor-pointer">About</Link>
+        {/* <Link to="/about" activeClassName="underline underline-offset-2" className="hover:underline underline-offset-2 cursor-pointer">About</Link> */}
         <Link to="/resume" className="hover:underline underline-offset-2 cursor-pointer">Resume</Link>
         <Link to="/contact" activeClassName="underline underline-offset-2" className="hover:underline underline-offset-2 cursor-pointer">Contact</Link>
       </nav>
@@ -60,7 +60,7 @@ const Header = ({ logo }) => {
             </div>
             <nav className="flex flex-col text-center text-black space-y-10 pt-[150px] text-6xl font-bold uppercase">
               <Link to="/" activeClassName="underline underline-offset-2" onClick={toggleMenu}>Home</Link>
-              <Link to="/about" activeClassName="underline underline-offset-2" onClick={toggleMenu}>About</Link>
+              {/* <Link to="/about" activeClassName="underline underline-offset-2" onClick={toggleMenu}>About</Link> */}
               <Link to="/resume" activeClassName="underline underline-offset-2" onClick={toggleMenu}>Resume</Link>
               <Link to="/contact" activeClassName="underline underline-offset-2" onClick={toggleMenu}>Contact</Link>
             </nav>

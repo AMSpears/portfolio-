@@ -16,7 +16,7 @@ const Footer = () => {
         <h3 className="text-primary text-[32px] mb-[24px] text-center md:text-left">Angie Spears</h3>
         <div className="flex flex-col md:flex-row justify-between">
           <div className="flex space-x-4 justify-center  md:justify-between mb-[24px] text-[20px] font-light">
-            <a href="/about">About</a>
+            {/* <a href="/about">About</a> */}
             <a href="/" target="_blank">Github</a>
             <a href="/" target='_blank'>Resume</a>
             <a href="mailto:contact@angiespears.com">Contact</a>
